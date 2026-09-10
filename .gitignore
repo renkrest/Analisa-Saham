@@ -1,0 +1,22 @@
+    # Data dan hasil
+    *.csv
+    *.xlsx
+    *.parquet
+    data/
+    results/
+
+    # Jupyter
+   .ipynb_checkpoints/
+    *.ipynb_checkpoints
+
+    # Python
+    __pycache__/
+    *.py[cod]
+    *.pyo
+   .venv/
+    env/
+    venv/
+
+    # OS
+   .DS_Store
+    Thumbs.db
