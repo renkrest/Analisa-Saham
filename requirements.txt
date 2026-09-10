@@ -1,9 +1,10 @@
-    pandas
-    numpy
-    scikit-learn
-    xgboost
-    vectorbt
-    yfinance
-    matplotlib
-    jupyter
-    ta
+pandas==3.0.5
+numpy==2.4.6
+scikit-learn
+xgboost
+vectorbt
+yfinance==1.5.2
+ta
+matplotlib
+multitasking==0.0.13
+openpyxl==3.1.5
