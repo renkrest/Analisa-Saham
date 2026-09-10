@@ -1,15 +1,17 @@
-# Analisa Saham ML Swing Trading IDX
+# Analisa Saham - Swing Trading dengan Machine Learning
 
-Project Machine Learning untuk strategi Swing Trading saham IDX menggunakan XGBoost.
+Project ini buat backtest strategi Swing Trading pake XGBoost + VectorBT. 
+Data diambil langsung dari Yahoo Finance pake `yfinance`.
 
-## Isi Repo
-- `Swing Trading ML.py` : Script utama untuk backtest
-- `Modul 32b - Optimasi Tingkat Lanjut.ipynb` : Notebook eksperimen hyperparameter
-- `Blueprint Sistem ML Swing Trading Idx.pdf` : Dokumentasi alur sistem
+## Fitur Utama
+- **Ambil Data**: Auto download data saham IHSG/US dari yfinance
+- **Indikator TA**: RSI, MACD, SMA, dll pake library `ta`
+- **Model ML**: Prediksi naik/turun 5 hari ke depan pake XGBoost
+- **Backtest**: Simulasi profit/loss pake VectorBT
+- **Visualisasi**: Grafik equity curve + signal buy/sell
 
-## Tools
-Python, Pandas, Scikit-learn, XGBoost, VectorBT
-
-## Hasil
-Akurasi model: XX%
-Return Backtest: XX%
+## Cara Install
+```bash
+git clone https://github.com/[username]/Analisa-Saham.git
+cd Analisa-Saham
+pip install -r requirements.txt
